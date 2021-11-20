@@ -214,6 +214,10 @@ app.post('/amadues_flight_create_order/', async (req, res, next)=>{
   
 });
 
+app.get("/", (req, res, next)=>{
+    res.send({Worked: "Ahrive api test"});
+});
+
 app.listen(PORT, ()=>{
     console.log(`server started on ${PORT}`);
 });
