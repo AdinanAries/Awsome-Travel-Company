@@ -1,0 +1,9 @@
+step 1:
+https://developer.sabre.com/OTABasic/setup-guides
+https://developer.sabre.com/home
+https://github.com/SabreDevStudio/postman-collections
+https://developer.sabre.com/guides/travel-agency/concepts/orchestrated-apis
+https://developer.sabre.com/user/ceo-mohammed/applications
+
+step 2:
+https://developer.sabre.com/docs/rest_apis/air/search/bargain_finder_max/versions/v400/reference-documentation
