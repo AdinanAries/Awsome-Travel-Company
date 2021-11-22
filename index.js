@@ -3,6 +3,7 @@ const https = require('https');
 var querystring = require('querystring');
 require('dotenv').config();
 const Amadeus = require("amadeus");
+const cors = require('cors');
 
 const app = express();
 
@@ -12,6 +13,10 @@ let PORT = process.env.PORT || 5000;
 let api_switch = "amadeus";
 var AmaduesOauthTokenExpires = 0;
 var AmadeusAccessToken = "";
+
+app.use(cors({
+    origin: '*'
+}));
 
 //amadeus setup
 var amadeus = new Amadeus({
